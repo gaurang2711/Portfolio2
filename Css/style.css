@@ -8,17 +8,6 @@
 }
 
 body {
-    background-image: url('../Resources/download.jpg');
-    font-family: Poppins;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
     background-image: url('../Resources/bg.jpg');
     font-family: Poppins;
 }
