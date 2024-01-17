@@ -246,11 +246,17 @@ h5 {
     background-image: linear-gradient(to left, #feda75, #fa731e, #d62976, #962fbf, #4f5bdf);
     transition: all ease-in-out 2s;
     cursor: pointer;
+    border: none;
+    
 }
 
 .insta:hover{
+    background: transparent;
+    background-image: linear-gradient(to left, #feda75, #fa731e, #d62976, #962fdf, #4f5bdf);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    transition: all ease 1s;
     border-radius: 60px;
-    transition:all ease 0.5s;
     animation: glowing 1300ms infinite;
 }
 
