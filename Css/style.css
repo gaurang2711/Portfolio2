@@ -9,6 +9,7 @@
 
 body {
     background-image: url('../Resources/bg.jpg');
+    background-size: cover;
     font-family: Poppins;
 }
 
